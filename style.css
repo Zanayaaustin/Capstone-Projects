@@ -22,9 +22,9 @@ body{
 }
 span{
     color:#fff ;
-    font-size:small ;
+    font-size:medium ;
     display:flex ;
-    justify-content:center ;
+    justify-content: center;
     padding: 10px 0 10px 0;
 }
 header{
@@ -34,14 +34,29 @@ header{
     justify-content: center;
     padding: 10px 0 10px 0;
 }
+.input-field{
+    display: flex;
+    flex-direction: column;
+}
 .input{
     height: 45px;
-    width:87% ;
+    width: 87%;
     border: none;
     outline: none;
     border-radius: 30px;
     color: #fff;
     padding: 0 0 0 45px;
-    background: rgba(255,255,255,0);
-
+    background: rgba(255,255,255,0.1;
+}
+i{
+    position: relative;
+    top: -33px
+    left 17px;
+    color: #fff;
+}
+::-webkit-input-placeholder{
+    color: #fff;
+}
+.submit{
+    border: none;
 }
