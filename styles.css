@@ -57,5 +57,13 @@ text-transform: uppercase;
 .navbar ul li:hover:after{
     width: 100%;
 }
+.content{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50);
+    text-align: center;
+    color: #fff;
+}
 
 
