@@ -21,7 +21,7 @@ body{
     padding:0 15px 0 15px;
 }
 span{
-    color:#fff ;
+    color: white;
     font-size:medium ;
     display:flex ;
     justify-content: center;
@@ -44,7 +44,7 @@ header{
     border: none;
     outline: none;
     border-radius: 30px;
-    color: #fff;
+    color:;
     padding: 0 0 0 42px;
     background: rgba(255,255,255,0.1;
 }
@@ -52,10 +52,10 @@ i{
     position: relative;
     top: -31px
     left 17px;
-    color: #fff;
+    color: black;
 }
 ::-webkit-input-placeholder{
-    color: #fff;
+    color: black;
 }
 .submit{
     border: none;
@@ -76,13 +76,13 @@ i{
     flex-direction: row;
     justify-content: space-between;
     font-size: small;
-    color: #fff;
+    color: #000000;
     margin-top: 10px;
 }
 .left{
     display: flex;
 }
 label a{
-    color: #fff;
+    color: black;
     text-decoration: none;
 }
